@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Transformación de la energía eléctrica',
+    descripcionCurso:
+      'El componente formativo presenta como se transforma la energía eléctrica de las centrales para hacerla apta para electrodomésticos y maquinaria. Explica la corriente alterna y continua, así como el proceso de conversión mediante transformadores, rectificadores, filtros y reguladores. Comprender este proceso permite entender el funcionamiento de dispositivos eléctricos en industrias y hogares.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Transformación de la corriente eléctrica: alterna y continua',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +87,87 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Corriente continua',
+      referencia:
+        'Juan Bautista Chávez. (2023). ¿En qué consiste la corriente continua?.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=yo3hDiqz3eI',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Corriente alterna',
+      referencia:
+        'Juan Bautista Chávez. (2023). ¿En qué consiste la Corriente Alterna?',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=1a3nqVd1N2s',
+    },
+    {
+      tema: 'Transformación de la corriente eléctrica: alterna y continua ',
+      referencia:
+        'TecNey PE. (2022). La forma más fácil para pasar de Corriente Alterna a Corriente Continua.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qJfyHf2X0XE',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Corriente alterna (A.C.)',
+      significado:
+        'Tipo de corriente eléctrica que cambia de polaridad constantemente, variando entre valores positivos y negativos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Corriente continua (C.C.)',
+      significado:
+        'Tipo de corriente eléctrica en la que las cargas fluyen en un solo sentido, manteniendo un voltaje constante.',
+    },
+    {
+      termino: 'Electrón',
+      significado:
+        'Partícula subatómica con carga negativa, responsable del flujo de corriente en los circuitos eléctricos.',
+    },
+    {
+      termino: 'Filtro',
+      significado:
+        'Elemento que suaviza la señal rectificada para hacerla similar a la corriente continua, eliminando fluctuaciones.',
+    },
+    {
+      termino: 'Fuente de alimentación',
+      significado:
+        'Sistema que proporciona energía eléctrica a un circuito o dispositivo, ya sea en forma de A.C. o C.C.',
+    },
+    {
+      termino: 'Rectificador',
+      significado:
+        'Componente que convierte la corriente alterna en una corriente unidireccional eliminando un semiciclo de la señal.',
+    },
+    {
+      termino: 'Regulador',
+      significado:
+        'Dispositivo que estabiliza el voltaje de salida en corriente continua, proporcionando una corriente constante.',
+    },
+    {
+      termino: 'Semiciclo',
+      significado:
+        'Mitad de un ciclo de una onda alterna, correspondiente a una polaridad (positiva o negativa) de la corriente.',
+    },
+    {
+      termino: 'Transformador',
+      significado:
+        'Dispositivo que ajusta el nivel de voltaje de la corriente alterna, aumentando o disminuyendo su amplitud.',
+    },
+    {
+      termino: 'Voltaje',
+      significado:
+        'Diferencia de potencial eléctrico entre dos puntos, que impulsa el flujo de corriente en un circuito.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Fisicalab. (s.f.). <em>La corriente alterna</em>.',
+      link: '',
+    },
+    {
+      referencia:
+        'Así funciona. (s.f.). <em>¿Qué es la corriente directa?</em>',
       link: '',
     },
   ],
@@ -150,8 +191,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Wilmar Martínez Urrutia',
+          cargo: 'Experto temático  ',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca ',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +207,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -181,11 +223,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
