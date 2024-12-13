@@ -80,39 +80,40 @@
         .tarjeta.bg-color-white.p-4.p-lg-5.pb-lg-4.shadow-soft(data-aos="fade-up")
           SlyderA(tipo='b')
             .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0
                 .pe-4
                   h4 Transformador
                   p.mt-4 Aumenta o disminuye la amplitud de la señal alterna. La señal entrante se conecta en el primario, y en los secundarios se obtiene una señal alterna de 12 o 30 voltios.
-              .col-lg-4
+              .col-lg-5
                 img(src='@/assets/curso/tema1/slider-1.png', style="max-width: 630px", alt="Presenta un  transformador con una conexión de entrada en el lado primario y dos salidas de voltaje en el lado secundario, con valores de 12V y 30V. Los cables del primario y los secundarios están claramente diferenciados, y se observa cómo el transformador ajusta los niveles de voltaje de la señal alterna.").mx-auto
 
 
             .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0
                 .pe-4
                  h4 Rectificador
                  p.mt-4 Elimina un semiciclo de la señal alterna entregada por el transformador, generalmente mediante semiconductores.
-              .col-lg-4
+              .col-lg-5
                 img(src='@/assets/curso/tema1/slider-2.png', style="max-width: 630px", alt="Presenta un   rectificador de puente de diodos, que permite convertir la señal de corriente alterna (CA) en corriente continua (CC). Los cuatro diodos están dispuestos en un circuito de puente que elimina un semiciclo de la señal alterna.").mx-auto
 
             .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0
                 .pe-4
                   h4 Filtro
                   p.mt-4 Convierte la señal rectificada en una señal muy similar a la continua.
-              .col-lg-4
+              .col-lg-5
                 img(src='@/assets/curso/tema1/slider-3.png', style="max-width: 630px", alt="Esquema del proceso de transformación de corriente alterna (CA) a corriente continua (CC), que incluye un transformador, un rectificador en puente, y un filtro. Este diagrama muestra el flujo de la señal desde la entrada de voltaje alterno hasta la salida continua.").mx-auto
 
             .row.pt-lg-4
-              .col-lg-8.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0
                 .pe-4
                   h4 Regulador
                   p.mt-4 Genera una señal perfectamente continua en el valor requerido.
-              .col-lg-4
+              .col-lg-5
                 img(src='@/assets/curso/tema1/slider-4.png', style="max-width: 630px", alt="Diagrama detallado que representa un sistema completo de transformación de CA a CC, con transformador de poder, rectificador de puente, filtro y regulador de tensión. Incluye elementos específicos como resistencias, condensadores y el regulador que asegura una salida de voltaje continua y estable.").mx-auto
 
-
+    .titulo-tres.mb-4(data-aos="flip-up").mb-4
+      h4 Para finalizar
 
     .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(

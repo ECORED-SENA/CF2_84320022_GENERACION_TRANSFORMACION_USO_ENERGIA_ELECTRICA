@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Transformación de la energía eléctrica',
     descripcionCurso:
-      'El componente formativo presenta como se transforma la energía eléctrica de las centrales para hacerla apta para electrodomésticos y maquinaria. Explica la corriente alterna y continua, así como el proceso de conversión mediante transformadores, rectificadores, filtros y reguladores. Comprender este proceso permite entender el funcionamiento de dispositivos eléctricos en industrias y hogares.',
+      'El componente formativo presenta cómo se transforma la energía eléctrica de las centrales para hacerla apta para electrodomésticos y maquinaria. Explica la corriente alterna y continua, así como el proceso de conversión mediante transformadores, rectificadores, filtros y reguladores. Comprender este proceso permite entender el funcionamiento de dispositivos eléctricos en industrias y hogares.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

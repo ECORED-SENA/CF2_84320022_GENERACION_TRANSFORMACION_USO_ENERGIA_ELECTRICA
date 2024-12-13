@@ -19,7 +19,7 @@
             .col-lg-auto(data-aos="fade-right")
               img(src="@/assets/curso/intro/1.svg", style="max-width: 110px", alt="").m-auto.mb-4.mb-lg-0
             .col-lg(data-aos="fade-left")
-              p.mb-0 Uno de los conceptos clave en la transformación de la energía eléctrica es la diferencia entre la corriente alterna (CA) y la corriente continua (CC). Mientras que la corriente alterna se utiliza para la transmisión de energía a largas distancias debido a sus bajas pérdidas energéticas, la corriente continua es necesaria para muchos dispositivos que requieren un flujo de energía constante y estable. Este conocimiento es indispensable para adaptar correctamente la energía a diferentes aplicaciones industriales y domésticas. 
+              p.mb-0 Uno de los conceptos clave en la transformación de la energía eléctrica es la diferencia entre la corriente alterna (CA o AC, por sus siglas en inglés de #[em Alternating current]) y la corriente continua (CC o DC, por sus siglas en inglés de #[em Direct current]). Mientras que la corriente alterna se utiliza para la transmisión de energía a largas distancias debido a sus bajas pérdidas energéticas, la corriente continua es necesaria para muchos dispositivos que requieren un flujo de energía constante y estable. Este conocimiento es indispensable para adaptar correctamente la energía a diferentes aplicaciones industriales y domésticas. 
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto
